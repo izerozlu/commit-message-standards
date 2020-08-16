@@ -23,12 +23,12 @@ Commits must include type. These types are:
 
 Used when starting a project.
 
-#### 1.1 Summary (Required)
+#### 1.1 Summary
 
 ```
 🎉 [STRT] | "Learning Ember.js" initialized.
 ```
-#### 1.2 Description (Optional)
+#### 1.2 Description
 
 ```
 This project includes a simple TODO list created with Ember.js.
@@ -38,12 +38,12 @@ This project includes a simple TODO list created with Ember.js.
 
 Indicates a known bug is resolved with this commit.
 
-#### 2.1 Summary (Required)
+#### 2.1 Summary
 
 ```
 🐛 [BUGF] | Calculation which breaks virtual repeater's first page fixed.
 ```
-#### 2.2 Description (Optional)
+#### 2.2 Description
 
 ```
 io-virtual-repeater#setupFirstPoint method's faulty placement calculation fixed.
@@ -57,12 +57,12 @@ Acts like a checkpoint in a video game.
 
 Tries to explain that the work being done is not finished yet but this commit was required to be made.
 
-#### 3.1 Summary (Required)
+#### 3.1 Summary
 
 ```
 🔖 [WOIP] | WeatherHttpRequestService's API integration with back-end.
 ```
-#### 3.2 Description (Required)
+#### 3.2 Description
 
 ```
 Methods for the following endpoints are implemented.
@@ -80,12 +80,12 @@ Endpoints left out:
 
 Explicitly describes refactorings made in code.
 
-#### 4.1 Summary*
+#### 4.1 Summary
 
 ```
 ✨ [RFAC] | Duplicate methods extracted to a service in NewsShowcaseComponent.
 ```
-#### 4.2 Description*
+#### 4.2 Description
 
 ```
 Code block at NewsShowcaseComponent:429 -> 457 extracted into a method named "clearNewsEntity" in NewsUtilityService.
@@ -97,12 +97,12 @@ A new feature is added to application.
 
 Work in Progress [WIP] commits are mostly used to reach this commit type in the end.
 
-#### 5.1 Summary*
+#### 5.1 Summary
 
 ```
 ✅ [FEAT] | "Trending Topics" report has been added.
 ```
-#### 5.2 Description*
+#### 5.2 Description
 
 ```
 Latest trend analysis and visualization report's implementation is complete.
@@ -112,12 +112,12 @@ Latest trend analysis and visualization report's implementation is complete.
 
 Version of the project -a set of improvement and feature inclusions- increased. 
 
-#### 6.1 Summary*
+#### 6.1 Summary
 
 ```
 🍻 [VERS] | 1.0.1 -> 1.0.2
 ```
-#### 5.2 Description*
+#### 5.2 Description
 
 ```
 Issues #32, #12, #9, #22 resolved.
