@@ -1,9 +1,3 @@
----
-title: Commit Message Standards
-created: '2020-08-16T14:03:31.846Z'
-modified: '2020-08-16T14:42:05.753Z'
----
-
 # Commit Message Standards
 
 This document briefly explains and exemplifies commit message standard for izerozlu github repositories.
