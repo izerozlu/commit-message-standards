@@ -12,12 +12,12 @@ Includes
 ## Commit Types
 
 Commits must include type. These types are:
-* Start **[START]**
-* Bug Fix **[BUG-FIX]**
-* Work in Progress **[WIP]**
+* Start **[STRT]**
+* Bug Fix **[BUGF]**
+* Work in Progress **[WOIP]**
 * Refactor **[RFAC]**
 * Feature addition **[FEAT]**
-* Version **[VER]**
+* Version **[VERS]**
 
 ### 1. Start
 
@@ -26,7 +26,7 @@ Used when starting a project.
 #### 1.1 Summary (Required)
 
 ```
-🎉 [START] | "Learning Ember.js" initialized.
+🎉 [STRT] | "Learning Ember.js" initialized.
 ```
 #### 1.2 Description (Optional)
 
@@ -41,7 +41,7 @@ Indicates a known bug is resolved with this commit.
 #### 2.1 Summary (Required)
 
 ```
-🐛 [BUG-FIX] | Calculation which breaks virtual repeater's first page fixed.
+🐛 [BUGF] | Calculation which breaks virtual repeater's first page fixed.
 ```
 #### 2.2 Description (Optional)
 
@@ -60,7 +60,7 @@ Tries to explain that the work being done is not finished yet but this commit wa
 #### 3.1 Summary (Required)
 
 ```
-🔖 [WIP] | WeatherHttpRequestService's API integration with back-end.
+🔖 [WOIP] | WeatherHttpRequestService's API integration with back-end.
 ```
 #### 3.2 Description (Required)
 
@@ -115,7 +115,7 @@ Version of the project -a set of improvement and feature inclusions- increased.
 #### 6.1 Summary*
 
 ```
-🍻 [VER] | 1.0.1 -> 1.0.2
+🍻 [VERS] | 1.0.1 -> 1.0.2
 ```
 #### 5.2 Description*
 
